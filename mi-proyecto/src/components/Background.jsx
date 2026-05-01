@@ -5,7 +5,7 @@ export default function Background() {
         position: "absolute",
         width: "100%",
         height: "100%",
-        backgroundImage: `url('${import.meta.env.BASE_URL}fondo.jpg')`,
+        backgroundImage: `url(${import.meta.env.BASE_URL}fondo.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         filter: "brightness(0.9)",
