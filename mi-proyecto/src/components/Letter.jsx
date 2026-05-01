@@ -31,7 +31,7 @@ export default function Letter({ onOpen, opened }) {
         aspectRatio: "3 / 4",
         width: "min(90vw, 700px)",
             background: opened
-            ? "url('/letterBackground.png') center/cover no-repeat"
+            ? `url('${import.meta.env.BASE_URL}letterBackground.png') center/cover no-repeat`
             : "linear-gradient(135deg, #f7ecd0, #fdf6e3)",
             borderRadius: 8,
           boxShadow: "0 20px 40px rgba(0,0,0,0.3)",
